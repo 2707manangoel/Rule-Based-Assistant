@@ -17,7 +17,7 @@ def personal_assistant():
         print("1. Say hello")
         print("2. Tell a joke")
         print("3. Give motivation")
-        print("4. Show data and time")
+        print("4. Show date and time")
         print("5. Exit")
 
         choice = input("Enter your choice (1-5): ").strip()
@@ -29,12 +29,12 @@ def personal_assistant():
             print("Because light attracts bugs!")
 
         elif choice =="3":
-            print("Keep learning,keep building, and never give up!")
+            print("Keep learning, keep building, and never give up!")
 
         elif choice =="4":
             show_data_time()
         elif choice =="5":
-            print(f"Goodbye, {name}!Have a great day.")
+            print(f"Goodbye, {name}! Have a great day.")
             break
         else:
             print("Invalid choice. Please enter a number from 1 to 5.")
